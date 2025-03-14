@@ -37,24 +37,28 @@ Examine gambling relapse discussions to detect emotional triggers and trends.
 Betting frequency, win/loss history, and behavioral trends in gambling addiction.
 
 Kaggle: Gambling Behavior Dataset
+
 UK Gambling Commission Reports
 
 ### Psychological & Personality Trait Data
 Narcissism, impulsivity, risk tolerance, and self-reported gambling tendencies.
 
 Kaggle: Big Five Personality Traits Dataset
+
 ICPSR Gambling & Mental Health Study
 
 ### Financial & Debt Data
 The financial impact of gambling addiction, bankruptcy rates, and economic stress.
 
 World Bank Financial Hardship Data
+
 Federal Reserve Consumer Debt Reports
 
 ### Social Media Gambling Sentiment Data
 I aim to scrape social media posts on public perception and emotional triggers linked to gambling relapse.
 
 Reddit API (r/problemgambling, r/gamblingaddiction)
+
 Twitter API (gambling-related tweets)
 
 --
