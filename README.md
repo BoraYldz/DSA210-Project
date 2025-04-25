@@ -52,7 +52,7 @@ Specifically, we aim to understand:
 
 I aim to scrape social media posts on public perception and emotional triggers linked to gambling relapse.
 
--Reddit API (r/problemgambling, r/gamblingaddiction)
--Twitter API (gambling-related tweets)
+- Reddit API (r/problemgambling, r/gamblingaddiction)
+- Twitter API (gambling-related tweets)
 
 Use of ML methods and prepare for Phase 3 of project
