@@ -2,65 +2,57 @@
 
 ## Project Overview
 
-This project explores the psychological aspects of gambling addiction, analyzing how traits like impulsivity, greed, loss aversion, and narcissism influence gambling behavior. Using machine learning models and sentiment analysis, we aim to predict at-risk gamblers and identify relapse triggers based on behavioral and financial data.
+This project explores the psychological and behavioral aspects of gambling addiction, analyzing how traits like impulsivity, risk tolerance, and conscientiousness influence gambling behavior. Using statistical techniques and data visualization, we aim to uncover patterns between personality traits, gambling activity, and socioeconomic stress factors.
 
-By leveraging data visualization and statistical techniques, this project will uncover patterns and test hypotheses about the relationship between psychological traits and gambling behavior. The ultimate goal is to provide actionable insights that can help individuals, policymakers, and mental health professionals better understand gambling addiction.
-
----
+The goal is to provide actionable insights that can help individuals, policymakers, and mental health professionals better understand gambling addiction.
 
 ## Motivation
 
-Gambling addiction is a growing issue worldwide, affecting millions of people financially and psychologically. This project aims to explore the underlying psychological mechanisms that drive addictive gambling behavior, using a data-driven approach to provide insights into prevention and intervention strategies. By analyzing real-world gambling behavior and sentiment trends, we can develop a more profound understanding of:
+Gambling addiction is a growing issue worldwide, affecting millions financially and psychologically. This project explores the psychological mechanisms behind addictive gambling behaviors using real-world behavioral, financial, and survey data.
 
--Why people continue gambling despite significant losses (loss aversion & sunk cost fallacy).
--How personality traits (such as impulsivity and narcissism) correlate with addiction risk.
--What emotional triggers cause gambling relapse (social media analysis).
+Specifically, we aim to understand:
+- Why individuals continue gambling despite significant losses (loss aversion, sunk cost fallacy)
+- How personality traits (such as impulsivity and conscientiousness) correlate with gambling behavior
+- How financial hardship may trigger gambling escalation or relapse
 
-Understanding these factors will not only contribute to academic research but also help casinos, financial institutions, and mental health professionals create better strategies to mitigate gambling addiction.
-
----
 ## Project Objectives
 
-### Understand Psychological & Behavioral Factors
-Explore how impulsivity, risk tolerance, greed, and narcissism impact gambling addiction.
+- Explore how impulsivity, risk tolerance, and conscientiousness impact gambling addiction
+- Identify predictors of gambling risk using psychological and behavioral indicators
+- Analyze broader socioeconomic factors (e.g., consumer debt trends) that may exacerbate gambling addiction
 
-### Identify Key Predictors of Gambling Addiction
-Use machine learning models to classify high-risk gamblers based on behavior and personality traits.
+## Datasets Used
 
-### Analyze Social Media Trends & Sentiment
-Examine gambling relapse discussions to detect emotional triggers and trends.
+- **ICPSR Gambling & Mental Health Study**  
+  (Gambling behavior, DSM-IV symptom counts, mental health indicators)
+- **Kaggle Gambling Behavior Dataset**  
+  (Gambling bets, cashouts, and profit/loss records)
+- **Kaggle Big Five Personality Traits Dataset**  
+  (Self-reported personality trait scores: OCEAN model)
+- **Federal Reserve Consumer Debt Reports**  
+  (National debt trends to assess background financial stress)
+
+**Note**: Kaggle Big Five Personality Traits Dataset is sampled/compressed due to GitHub file size limitations.
+
+## Methods
+
+- Exploratory Data Analysis (EDA) of behavioral, psychological, and financial trends
+- Hypothesis testing using two-sample independent t-tests
+- Visualizations: histograms, boxplots, line plots, bar charts
+
+## Results
+
+- Problem gamblers exhibited significantly higher DSM-IV symptom counts compared to non-problem gamblers.
+- Personality trait analysis showed a moderate but statistically significant difference in conscientiousness scores across sampled groups.
+- National debt trends suggest increasing background financial stress, potentially correlating with gambling relapse risk.
 
 ---
-## Datasets
 
-### Gambling Behavior & Spending Data
-Betting frequency, win/loss history, and behavioral trends in gambling addiction.
+## Next Agenda
 
-Kaggle: Gambling Behavior Dataset
-
-UK Gambling Commission Reports
-
-### Psychological & Personality Trait Data
-Narcissism, impulsivity, risk tolerance, and self-reported gambling tendencies.
-
-Kaggle: Big Five Personality Traits Dataset
-
-ICPSR Gambling & Mental Health Study
-
-### Financial & Debt Data
-The financial impact of gambling addiction, bankruptcy rates, and economic stress.
-
-World Bank Financial Hardship Data
-
-Federal Reserve Consumer Debt Reports
-
-### Social Media Gambling Sentiment Data
-I aim to scrape social media posts on public perception and emotional triggers linked to gambling relapse.
+- I aim to scrape social media posts on public perception and emotional triggers linked to gambling relapse.
 
 Reddit API (r/problemgambling, r/gamblingaddiction)
-
 Twitter API (gambling-related tweets)
 
---
-
-
+- Use of ML methods for Phase 3
