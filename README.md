@@ -32,7 +32,7 @@ Specifically, we aim to understand:
 - **Federal Reserve Consumer Debt Reports**  
   (National debt trends to assess background financial stress)
 
-**Note**: Kaggle Big Five Personality Traits Dataset is sampled/compressed due to GitHub file size limitations.
+**Note**: Kaggle Big Five Personality Traits Dataset is added to data/ExternalDataLinks.md due to GitHub file size limitations.
 
 ## Methods
 
@@ -50,9 +50,9 @@ Specifically, we aim to understand:
 
 ## Next Agenda
 
-- I aim to scrape social media posts on public perception and emotional triggers linked to gambling relapse.
+I aim to scrape social media posts on public perception and emotional triggers linked to gambling relapse.
 
-Reddit API (r/problemgambling, r/gamblingaddiction)
-Twitter API (gambling-related tweets)
+-Reddit API (r/problemgambling, r/gamblingaddiction)
+-Twitter API (gambling-related tweets)
 
-- Use of ML methods for Phase 3
+Use of ML methods and prepare for Phase 3 of project
