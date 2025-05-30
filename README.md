@@ -34,25 +34,33 @@ Specifically, we aim to understand:
 
 **Note**: Kaggle Big Five Personality Traits Dataset is added to data/ExternalDataLinks.md due to GitHub file size limitations.
 
-## Methods
+### 🛠️ Methods
 
-- Exploratory Data Analysis (EDA) of behavioral, psychological, and financial trends
-- Hypothesis testing using two-sample independent t-tests
-- Visualizations: histograms, boxplots, line plots, bar charts
+- **EDA:** Histograms, boxplots, and distribution curves for spend, DSM scores, personality traits
+- **Hypothesis Testing:** Two-sample t-tests comparing problem vs. non-problem gamblers
+- **Modeling:**
+  - Logistic Regression
+  - Random Forest Classifier
+- **Model Evaluation:**
+  - Confusion Matrix
+  - Classification Report
+  - ROC Curve & AUC Score
+
+---
+
+## 📈 Key Findings
+
+- **DSM-IV Gambling Scores:** Only ~3–4% of participants met the “problem gambler” threshold (5+ DSM symptoms).
+- **Personality Traits:** Conscientiousness showed significant group differences, supporting its link to self-control and risk.
+- **Model Performance:** Both models struggled with classifying problem gamblers due to class imbalance (only 11 of 590 test cases). AUC scores around 0.60 reflected weak separation.
+- **ROC Curves:** Despite high overall accuracy, both models failed to identify positive cases—highlighting a need for improved sampling or resampling techniques.
+
+---
 
 ## Results
 
 - Problem gamblers exhibited significantly higher DSM-IV symptom counts compared to non-problem gamblers.
 - Personality trait analysis showed a moderate but statistically significant difference in conscientiousness scores across sampled groups.
 - National debt trends suggest increasing background financial stress, potentially correlating with gambling relapse risk.
+- Severe class imbalance made it difficult to train effective models for problem gambling.
 
----
-
-## Next Agenda
-
-I aim to scrape social media posts on public perception and emotional triggers linked to gambling relapse.
-
-- Reddit API (r/problemgambling, r/gamblingaddiction)
-- Twitter API (gambling-related tweets)
-
-Use of ML methods and prepare for Phase 3 of project
